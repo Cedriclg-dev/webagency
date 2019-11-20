@@ -1,0 +1,86 @@
+.body-services {
+    width: 100%;
+    height: auto;
+}
+
+.container-contact {
+    position: relative;
+    width: 100%;
+}
+/* carte intéractive et voile bleu */
+.map {
+    position: absolute;
+    width: 100%;
+}
+
+.container-contact iframe {
+    width: 100%;
+}
+
+.calc-blue {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    background-color: rgba(92,173,211, .3);
+    pointer-events: none;
+}
+/* formulaire de contact */
+.formulaire {
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 22px;
+    right: 100px;
+}
+
+.formulaire strong {
+    color: #5A5F64;
+}
+
+.formulaire form {
+    background-color: rgba(255, 255, 255, .8);
+    margin: 100px 0;
+    width: 400px;
+    height: 75%;
+    padding: 30px;
+}
+
+.formulaire form h2 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 180%;
+}
+
+.formulaire input {
+    font-family: 'roboto';
+    font-size: 15px;
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.formulaire textarea {
+    font-family: 'roboto';
+    font-size: 15px;
+    width: 100%;
+    height: 200px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.formulaire .message {
+    font-family: 'roboto';
+    color: white;
+    background-color: rgb(92, 173, 211);
+    border-radius: 6px;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 30px 0;
+    width: 40%;
+    text-decoration: none;
+    margin-top: 10px;
+}

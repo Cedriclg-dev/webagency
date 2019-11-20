@@ -1,0 +1,147 @@
+.portfolio-projets {
+    position: relative;
+    background-color: rgb(245, 245, 245);
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.bloc-portfolio {
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+/* barre de menu */
+.menu-portfolio {
+    position: relative;
+    justify-content: center;
+    margin: 100px auto;
+    width: 480px;
+    height: 50px;
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    text-align: center;
+    box-shadow: 0 4px rgb(229, 229, 229);
+    border-radius: 6px 6px 6px 6px;
+  }
+
+.menu-portfolio input {
+    display: none;
+}
+
+.menu-portfolio span {
+    display: none;
+}
+
+.menu-portfolio .fas {
+    position: absolute;
+    color: rgb(71, 139, 160);
+    font-size: 26px;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+
+.menu-portfolio > label {
+    width: 25%;
+    height: 50px;
+    padding-top: 10px;
+    background-color: rgb(229, 229, 229);
+}
+
+#label1 {
+    border-radius: 6px 0 0 6px;
+}
+
+#label4 {
+    border-radius: 0 6px 6px 0;
+}
+
+label:hover {
+    background-color: #50A4BF;
+    color: #FFF;
+    box-shadow: 0 4px rgb(71, 139, 160);
+}
+
+label:hover span {
+    display: block;
+}
+
+#btn1:checked ~ #label1,
+#btn2:checked ~ #label2,
+#btn3:checked ~ #label3,
+#btn4:checked ~ #label4 {
+    background-color: #50A4BF;
+    color: #FFF;
+    box-shadow: 0 4px rgb(71, 139, 160);
+}
+
+#btn1:checked ~ #label1 > span,
+#btn2:checked ~ #label2 > span,
+#btn3:checked ~ #label3 > span,
+#btn4:checked ~ #label4 > span {
+    display: block;
+}
+/* les projets réalisés */
+.container-projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.projets {
+    overflow: hidden;
+    padding-top: 0;
+    position: relative;
+    margin: 15px;
+    width: 20%;
+}
+
+.projets img {
+    width: 100%;
+}
+
+.projets-fig {
+    line-height: 15px;
+    display: none;
+    position: absolute;
+    color: #FFF;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    padding: 0 10px 10px 10px;
+}
+
+.projets-fig h2 {
+    font-family: 'roboto';
+    color: #FFF;
+}
+
+.projets img:hover ~ .projets-fig, .projets-fig:hover {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.projets .far {
+    position: absolute;
+    font-size: 1.1rem;
+    top: -8px;
+    right: 45px;
+}
+
+.circle-far {
+    position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 2px solid white;
+	background-color: #50A4BF;
+	bottom: 65px;
+	right: 25px;
+}
